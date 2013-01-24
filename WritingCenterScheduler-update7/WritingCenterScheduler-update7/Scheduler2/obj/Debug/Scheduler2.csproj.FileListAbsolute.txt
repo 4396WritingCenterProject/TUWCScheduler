@@ -1,0 +1,5 @@
+G:\WritingCenterScheduler\Scheduler2\bin\Scheduler2.dll
+G:\WritingCenterScheduler\Scheduler2\bin\Scheduler2.pdb
+G:\WritingCenterScheduler\Scheduler2\obj\Debug\ResolveAssemblyReference.cache
+G:\WritingCenterScheduler\Scheduler2\obj\Debug\Scheduler2.dll
+G:\WritingCenterScheduler\Scheduler2\obj\Debug\Scheduler2.pdb

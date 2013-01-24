@@ -1,0 +1,245 @@
+﻿/*
+[Typography Stylesheet]
+*/
+
+/*
+-------------------------------
+basic HTML
+-------------------------------
+*/
+
+html{}
+
+body{font-family:Arial, Helvetica, sans-serif; line-height:1.5em;}
+
+
+/*
+-------------------------------
+Type
+-------------------------------
+*/
+h1{font-size: 2.25em;}	/* 36px */
+h2{font-size: 1.5em;}	/* 24px */
+h3{font-size: 1.3em;}	/* 21px */
+h4{font-size: 1.125em;}	/* 18px */
+h5{font-size: 1em;}	/* 16px */
+h6{font-size: 1em;}	/* 16px */
+
+p {font-size: 1em;}/* 16px */
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+blockquote {
+	display: block;
+	background-attachment: scroll;
+	background-image: url('../../images/bg-quotes.gif');
+	background-repeat: no-repeat;
+	/*
+	margin-top: 1em;
+	margin-right: 40px;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+	*/
+}
+
+abbr, acronym {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333 /*#99A3A7*/;
+}
+
+/*
+-------------------------------
+Links
+-------------------------------
+*/
+a:link {color:#0796c6/*#adadad ~ changed per client request CD 07/06/2012*/;}/* unvisited link */
+a:visited {color:#0796c6;}/* visited link */
+a:hover {/*background-color:#D5DEE2;*/color:#4da8c7;}/* mouse over link */
+a:active {/*background-color:#D5DEE2;*/	color:#4da8c7;}/* selected link */
+
+a[href$="pdf"]:after {
+	margin: 0 0 0 5px;
+	color: #9e1b34;
+	font-size: 11px;
+	font-weight: bold;
+	content: "[PDF]";
+	vertical-align: bottom;
+}
+a[href$="docx"]:after {
+	margin: 0 0 0 5px;
+	color: #9e1b34;
+	font-size: 11px;
+	font-weight: bold;
+	content: "[Word Doc]";
+	vertical-align: bottom;
+}
+a[href$="doc"]:after {
+	margin: 0 0 0 5px;
+	color: #9e1b34;
+	font-size: 11px;
+	font-weight: bold;
+	content: "[Word Doc]";
+	vertical-align: bottom;
+}
+a[href$="ppt"]:after {
+	margin: 0 0 0 5px;
+	color: #9e1b34;
+	font-size: 11px;
+	font-weight: bold;
+	content: "[PPT]";
+	vertical-align: bottom;
+}
+
+/*
+-------------------------------
+Lists
+-------------------------------
+*/
+
+/* unordered lists */
+ul {list-style: disc; margin-left: 50px;}/* default unordered list */
+ul li {font-size: 1em;}/* default list item */
+ul li li {font-size: 1em;}/* default nested list item */
+ul li li li {font-size: 1em;}/* default nested list item */
+
+ul li.unordered-list-circle {list-style-type:circle;}
+ul li.unordered-list-disc {list-style-type:disc;}
+ul li.unordered-list-square {list-style-type:square;}
+ul li.unordered-list-none {list-style-type:none;}
+ul li.unordered-list-nomargin {list-style-type:none; margin-left: 0px;}
+
+ul li.unordered-list-check {
+	list-style-type: none;
+	list-style-image: url('../../images/bullet-checked.gif');
+}
+ul li.unordered-list-uncheck {
+	list-style-type: none;
+	list-style-image: url('../../images/bullet-unchecked.gif');
+}
+
+ul li.unordered-list-linebreak {list-style: disc;}
+ul li.unordered-list-linebreak {margin-bottom: 15px;}
+ul li.unordered-list-circle-linebreak {list-style: circle;}
+ul li.unordered-list-circle-linebreak {margin-bottom: 15px;}
+
+ul li.unordered-list-disc-linebreak {list-style: disc;}
+ul li.unordered-list-disc-linebreak {margin-bottom: 15px;}
+
+ul li.unordered-list-square-linebreak {list-style: square;}
+ul li.unordered-list-square-linebreak {margin-bottom: 15px;}
+
+ul li.unordered-list-none-linebreak {list-style: none;}
+ul li.unordered-list-none-linebreak {margin-bottom: 15px;}
+
+ul li.unordered-list-check-linebreak {
+	list-style-type: none;
+	list-style-image: url('../../images/bullet-checked.gif');
+	margin-bottom: 15px;
+}
+
+ul li.unordered-list-uncheck-linebreak {
+	list-style-type: none;
+	list-style-image: url('../../images/bullet-unchecked.gif');
+	margin-bottom: 15px;
+}
+
+	
+/* ordered lists */
+ol {
+	list-style: decimal;
+	margin-left: 60px;
+	margin-bottom:20px;
+}/* default unordered list */
+
+ol li {font-size: 1em; margin-bottom: 0px;}/* default list item */
+ol li li {font-size: 1em;}/* default nested list item */
+ol li li li {font-size: 1em;}/* default nested list item */
+
+ol li.ordered-list-decimal {list-style-type:decimal;}
+ol li.ordered-list-decimal-zero {list-style-type:decimal-leading-zero;}
+ol li.ordered-list-lroman {list-style-type:lower-roman;}
+ol li.ordered-list-uroman {list-style-type:upper-roman;}
+ol li.ordered-list-lalpha {list-style-type:lower-alpha;}
+ol li.ordered-list-ualpha {list-style-type:upper-alpha;}
+ol li.ordered-list-none {list-style-type:none;}
+ol li.ordered-list-none-linebreak {list-style-type:none; margin-bottom:15px;}
+
+ol li.ordered-list-linebreak {list-style: decimal; margin-bottom:15px;}
+ol li.ordered-list-decimal-linebreak {list-style: decimal; margin-bottom:15px;}
+ol li.ordered-list-zdecimal-linebreak {list-style-type:decimal-leading-zero; margin-bottom:15px;}
+ol li.ordered-list-lroman-linebreak {list-style:lower-roman; margin-bottom:15px;}
+ol li.ordered-list-uroman-linebreak {list-style:upper-roman; margin-bottom:15px;}
+ol li.ordered-list-lalpha-linebreak {list-style:lower-alpha; margin-bottom:15px;}
+ol li.ordered-list-ualpha-linebreak {list-style:upper-alpha; margin-bottom:15px;}
+
+/* definition lists */
+dl {font-size: 1em; margin-left: 40px;}
+dd {margin-left: 20px;}
+dl dt {margin-bottom: 0em;}
+dl dd {margin-top: 0px;}
+
+dl dd.def-list-linebreak {margin-top: 0px; margin-bottom: 25px;}
+dl.definition-list-nomargin, dl.definition-list-nomargin dd {list-style-type:none; margin-left: 0px; margin-bottom:20px;}
+
+/*
+-------------------------------
+Tables
+-------------------------------
+*/
+table {background: #99A3A7;	border: 1px solid #99A3A7; margin: 0 auto 15px auto; width: 95%;}
+table th {background: #fff; border: 1px solid #99A3A7; font-weight: bold; padding-left: 10px; vertical-align: top;}
+table td {background: #fff; border: 1px solid #99A3A7; padding-left: 10px;  vertical-align: top;}
+
+table.table-noborder {background: transparent; border: none; margin: 0 auto 15px auto; width: 95%;}
+table.table-noborder th {background: transparent; border: none; color: #333; padding: 0px 10px 0px 10px;}
+table.table-noborder td {background: transparent;	border: none; color: #333; padding: 0px 10px 0px 10px; vertical-align: top;}
+table.table-noborder td ul {margin: 0px 0px 0px 0.8em; padding: 0px 0px 0px 0.8em;}
+table.table-noborder td ol {margin: 0px 0px 0px 1em; padding: 0px 0px 0px 1em;}
+
+table.table-red-header {background: #99A3A7; border: 1px solid #99A3A7;  margin: 0 auto 15px auto; width: 95%;}
+table.table-red-header th {background: #999; border: 1px solid #99A3A7; color: #fff; padding: 2px;}
+table.table-red-header th a {color: #fff; text-decoration:underline;}
+table.table-red-header th a:link {color: #fff;}
+table.table-red-header th a:visited {color: #fff;}
+table.table-red-header th a:hover {color: #fff;}
+table.table-red-header th a:active {color: #fff;}
+table.table-red-header td {background: #fff; border: 1px solid #bbb; color: #333; padding: 2px 2px 2px 10px; vertical-align: top;}
+table.table-red-header td ul {margin: 0px 0px 0px 0em; padding: 0px 0px 0px 0.8em;}
+table.table-red-header td ol {margin: 0px 0px 0px 0em; padding: 0px 0px 0px 1em;}
+
+table.table-gray-header {background: #99A3A7; border: 1px solid #99A3A7; border-collapse:collapse; margin: 0 auto 15px auto; width: 95%;}
+table.table-gray-header th {background: #737A7D; border: 1px solid #99A3A7; color: #fff; padding: 2px;}
+table.table-gray-header th a {color: #fff; text-decoration:underline;}
+table.table-gray-header th a:link {color: #fff;}
+table.table-gray-header th a:visited {color: #fff;}
+table.table-gray-header th a:hover {color: #fff;}
+table.table-gray-header th a:active {color: #fff;}
+table.table-gray-header td {background: #fff; border: 1px solid #bbb; color: #333; padding: 2px 2px 2px 10px; vertical-align: top;}
+table.table-gray-header td ul {margin: 0px 0px 0px 0em; padding: 0px 0px 0px 0.8em;}
+table.table-gray-header td ol {margin: 0px 0px 0px 0em; padding: 0px 0px 0px 1em;}
+
+table th.table-side-header{background: #CCD1D3; color: #5a5a5a;}
+
+table th.table-alternate-row {background: #E5E8E9; border: none;}
+table tr.table-alternate-row td {background: #E5E8E9; border: none;}
+table td.table-alternate-row {background: #E5E8E9; border: none;}
+
+/*
+-------------------------------
+Form Styles
+-------------------------------
+*/
+
+fieldset { border:1px solid #ccc; margin-bottom:20px; padding:20px;  }
+legend {font-weight:bold; }
+input[type="radio"] { margin-bottom:10px; }
+label[for="focus"] { text-transform:uppercase;  }
+textarea { width:100%; height:100%; }
+form div { margin-bottom:10px;}
+label:after {content: ":";}
+input[type="radio"]+label:after { content:none; }
+label+p { margin-left:30px; 

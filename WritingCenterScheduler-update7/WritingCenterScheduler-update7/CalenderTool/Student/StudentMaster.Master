@@ -1,0 +1,196 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentMaster.master.cs" Inherits="CalenderTool.Student.StudentMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/home.dwt.asp" codeOutsideHTMLIsLocked="false" -->
+<head>
+<style type="text/css">
+        .buttonStyle 
+        {
+            width: 111px;
+            background-color: White;
+            border-width: 1px;
+            color: White;
+        }
+        .cellStyle
+        {
+            border: solid;
+            border-color: #E8E8E8;
+            border-width: 1px;
+            background-color: #F2F2F2;
+        }
+        .timeCellStyle
+        {
+            border: solid;
+            border-color: #E8E8E8;
+            border-width: 1px;
+            background-color: #FFFFFF;
+        }
+        
+    </style>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta name="description" content="Founded in 1988, Temple's Writing Center provides help for graduate and undergraduate students who are working on papers for classes, theses, and dissertations." />
+ <meta name="keywords" content="Temple University, Temple University Writing Center, Writing Center, papers, theses, dissertations,tutoring, writing fellows, writing workshops, seminars, writers groups, dissertation bootcamp, writing-intensive course program, writing intensive course program, writing-intensive course committeee, writing intenseive course committee, faculty development, Vice Provost for Undergradute Studies" />
+ <title>Writing Center Scheduler | Temple University</title><style type="text/css">
+<!--
+@import url('/CSS/reset.css');
+@import url('/CSS/960.css');
+@import url('/CSS/type.css');
+@import url('/CSS/styles.css');
+-->
+</style>
+<!--[if lt IE 8]><link rel="stylesheet" href="/writingctr/assets/css/lte-ie-8.css"><![endif]-->
+<!--Script to clear search box-->
+<script type="text/javascript" src="/writingctr/assets/js/clear-form.js"></script>
+<!--Script for jquery library-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!--Script for footer-->
+<script type="text/javascript" src="/writingctr/assets/js/AC_RunActiveContent.js"></script>
+
+<script type="text/javascript" language="vbscript">
+<!--
+
+-->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body id="home">
+<!--Skip Nav-->
+
+		<div id="skip-nav">
+			<h2>Skip Navigation</h2>
+			<p>
+				<a href="#main-content" tabindex="1">
+					Skip to main content
+				</a>
+			</p>
+		</div>
+		<div id="header">
+		<div id="utilitynav">
+			<div id="utilitynav-inner" class="container_12">
+				<h2 class="hidden">Temple University Utility Navigation</h2>
+				<ul id="globalnav" class="inlineList grid_6">
+					<li class="unordered-list-none unordered-list-nomargin" style="color: #FFFFFF">
+							STUDENT
+					</li>
+                    <li class="unordered-list-none unordered-list-nomargin">
+						<a href="http://www.temple.edu/writingctr/">
+							Home
+						</a>
+					</li>
+                    <li class="unordered-list-none unordered-list-nomargin">
+						<a href="http://www.temple.edu/writingctr/contact.asp">
+							Contact
+						</a>
+					</li>
+                    <li class="unordered-list-none unordered-list-nomargin">
+						<a href="/Student/StudentHelp.aspx">
+							Help
+						</a>
+					</li>
+					<li class="unordered-list-none unordered-list-nomargin">
+						<a href="http://www.temple.edu">
+							Temple University
+						</a>
+					</li>
+					<li class="unordered-list-none unordered-list-nomargin">
+						<a href="http://tumail.temple.edu">
+							TUmail
+						</a>
+					</li>
+					<li class="unordered-list-none unordered-list-nomargin">
+						<a href="http://tuportal.temple.edu">
+							TUportal
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--/utilitynav-inner-->
+		</div>
+		<!--/utilitynav-->
+		<!--Clear floats-->
+		<div class="clear">
+		</div>
+		<!--Logo-->
+		<div id="logo">
+			<div id="logo-inner" class="container_12">
+				<a href="/writingctr/index.asp">
+					<h1 class="hidden">Temple University Writing Center</h1>
+					<img src="../Images/masterLogo.png" alt="Writing Center Logo" width="274" 
+                    height="51" title="Writing Center" />
+				</a>
+			</div>
+			<!--/logo-inner-->
+		</div>
+		<!--/logo-->
+		<!--Clear floats-->
+		<div class="clear">
+		</div>
+  <!--Primary Nav-->
+  <div id="primarynav">
+   <div id="primarynav-inner" class="container_12">
+    <h2 class="hidden">Primary Navigation</h2>
+    <ul class="inlineList grid_16">
+     <li class="unordered-list-none unordered-list-nomargin"><a href="/Student/StudentDashboard.aspx" class="whoweareNav">Dashboard</a></li>
+     <li class="unordered-list-none unordered-list-nomargin"><a href="/Student/StudentScheduling.aspx" class="supportwritersNav">Schedule Appointment</a></li>
+     <li class="unordered-list-none unordered-list-nomargin"><a href="/Student/StudentCanceling.aspx" class="supportfacultyNav">Cancel Appointment</a></li>
+    </ul>
+   </div><!--/primarynav-inner-->
+  </div><!--/primarynav-->
+  <!--Clear floats--><div class="clear"></div>  <!--Unit Name-->
+  <div id="unit-name">
+   <div id="unit-name-inner" class="container_12">
+     <p>&nbsp;</p>
+   </div>
+  </div><!--/unit-name-->
+ </div><!--/header-->
+ <!--Clear floats--><div class="clear"></div>
+ <!--CONTENT-->
+ <div id="content">
+  <div id="content-inner" class="container_12">
+   <!--Main Content-->
+   <div id="main-content" class="grid_12">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderStudent" runat="server">
+    </asp:ContentPlaceHolder>
+   </div><!--/main-content-->
+  </div><!--/content-inner-->
+ </div><!--/content-->
+ <!--FOOTER-->
+ <div id="footer">
+  <div id="footer-inner" class="container_12">
+   <div id="department" class="grid_3">
+    <a href="http://www.temple.edu/">
+    &nbsp;</a></div>
+   <div id="address"  class="grid_3">
+    <p class="bold">The Writing Center</p>
+    <p>Tuttleman Learning Center <br />
+    13th Street and Montgomery Avenue <br />
+    Suite 201 <br />
+    Philadelphia, PA 19122</p>
+   </div>
+   <div id="contact" class="grid_2">
+    <p>215-204-0702 (phone)<br />
+    215-204-0704 (fax)</p>
+   </div>
+   <div id="fineprint" class="grid_3 suffix_1">
+   </div>
+  </div><!--/footer-inner-->
+ </div><!--/footer-->
+ 
+ <!--Script for Google Analytics-->
+<script type="text/javascript" src="/writingctr/assets/js/taglinks.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16373908-26']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+<!-- InstanceEnd --></html>

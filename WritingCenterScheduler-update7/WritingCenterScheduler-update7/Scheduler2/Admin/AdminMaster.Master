@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="Scheduler2.Admin.AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="utilitynav" style="width: 100%; background-color: #333; z-index: 1; left: 0px;
+        top: 0px; position: absolute;">
+        <table cellpadding="5" cellspacing="2">
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="ADMINISTRATOR" CssClass="headerLabelStyle"></asp:Label>
+                </td>
+                <td>
+                    <a href="AdminDashboard.aspx" style="text-decoration: none"><asp:Label ID="Label2" runat="server" Text="Home" CssClass="headerLabelStyle"></asp:Label></a>
+                </td>
+                <td>
+                    <a href="AdminHelp.aspx" style="text-decoration: none"><asp:Label ID="Label3" runat="server" Text="Help" CssClass="headerLabelStyle"></asp:Label></a>
+                </td>
+                <td>
+                    <a href="http://www.temple.edu/" style="text-decoration: none"><asp:Label ID="Label4" runat="server" Text="Temple University" CssClass="headerLabelStyle"></asp:Label></a>
+                </td>
+                <td>
+                    <a href="http://tumail.temple.edu/" style="text-decoration: none"><asp:Label ID="Label5" runat="server" Text="TUmail" CssClass="headerLabelStyle"></asp:Label></a>
+                </td>
+                <td>
+                    <a href="http://tuportal.temple.edu/" style="text-decoration: none"><asp:Label ID="Label6" runat="server" Text="TUportal" CssClass="headerLabelStyle"></asp:Label></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="z-index: 10; right: 15px; top: 8px; position: absolute;">
+        <asp:Label ID="Label7" runat="server" Text="Welcome, John" 
+            CssClass="headerLabelStyle" ForeColor="White" Font-Size="Small"></asp:Label>
+    </div>
+    <div>
+        <table align="center" style="width: 100%">
+            <tr>
+                <td>
+                    <br />
+                    <br />
+                    <asp:Image ID="Image1" runat="server" ImageUrl="../Images/writingctrlogo.png" />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <div style="background-color: #9e1b34">
+                        <asp:Button ID="Button1" runat="server" Text="Scheduled Appointments" 
+                            CssClass="menuButtonStyle" onclick="Button1_Click" />
+                        <asp:Button ID="Button2" runat="server" Text="View/Modify Staff Information" 
+                            CssClass="menuButtonStyle" onclick="Button2_Click" />
+                        <asp:Button ID="Button3" runat="server" Text="Schedule Staff Availability" 
+                            CssClass="menuButtonStyle" onclick="Button3_Click" />
+                        <asp:Button ID="Button5" runat="server" Text="Schedule Student Appointment" 
+                            CssClass="menuButtonStyle" onclick="Button5_Click" />
+                        <asp:Button ID="Button6" runat="server" Text="Cancel Student Appointment" 
+                            CssClass="menuButtonStyle" onclick="Button6_Click" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

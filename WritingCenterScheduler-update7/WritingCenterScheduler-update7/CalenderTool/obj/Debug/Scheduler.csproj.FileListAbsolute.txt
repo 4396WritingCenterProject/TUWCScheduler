@@ -1,0 +1,48 @@
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\CalenderTool.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\CalenderTool.pdb
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\AjaxControlToolkit.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\HtmlAgilityPack.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\SanitizerProviders.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\obj\Debug\CalenderTool.dll
+C:\Users\Geoff\Documents\Visual Studio 2010\Projects\WritingCenterScheduler\CalenderTool\obj\Debug\CalenderTool.pdb
+G:\WritingCenterScheduler\CalenderTool\bin\CalenderTool.dll
+G:\WritingCenterScheduler\CalenderTool\bin\CalenderTool.pdb
+G:\WritingCenterScheduler\CalenderTool\bin\AjaxControlToolkit.dll
+G:\WritingCenterScheduler\CalenderTool\bin\HtmlAgilityPack.dll
+G:\WritingCenterScheduler\CalenderTool\bin\SanitizerProviders.dll
+G:\WritingCenterScheduler\CalenderTool\bin\ar\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\cs\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\de\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\es\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\fr\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\he\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\hi\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\it\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\ja\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\ko\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\nl\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\pt\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\ru\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\tr-TR\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\zh-CHS\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\bin\zh-CHT\AjaxControlToolkit.resources.dll
+G:\WritingCenterScheduler\CalenderTool\obj\Debug\ResolveAssemblyReference.cache
+G:\WritingCenterScheduler\CalenderTool\obj\Debug\CalenderTool.dll
+G:\WritingCenterScheduler\CalenderTool\obj\Debug\CalenderTool.pdb
